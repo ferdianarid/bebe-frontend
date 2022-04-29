@@ -55,7 +55,7 @@ const Login: React.FC = () => {
                     <p className="text-xs font-medium text-gray-800 text-center mt-5">Kamu belum punya akun ?</p>
 
                     {/* <!-- Button Register --> */}
-                    <Link href={'/authentication/daftar'}>
+                    <Link href={'/authentication/daftar'} passHref>
                         <button type="submit" aria-labelledby='login' className="py-3 mt-4 text-sm text-green-600 px-4 bg-white hover:bg-green-100 w-full">
                             <p className="text-sm font-bold">Buat Akun</p>
                         </button>

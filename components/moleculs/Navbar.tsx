@@ -21,7 +21,7 @@ function Navbar() {
             <div className="flex items-center justify-between">
                 <div className="flex items-center">
                     <div className="flex-shrink-0">
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <p className="nav-link font-bold text-lg">Belajarbekerja.com</p>
                         </Link>
                         {/* <img src={Logoimg} width="128px" alt="travelia-logo" /> */}
@@ -35,7 +35,7 @@ function Navbar() {
                                         <React.Fragment>
                                             <span className="rounded-md shadow-sm">
                                                 <Menu.Button className="inline-flex items-center space-x-2 text-sm text-gray-700 justify-center transition duration-150 ease-in-out  focus:border-blue-300 focus:shadow-outline-blue">
-                                                    <Link href="/kategori">
+                                                    <Link href="/kategori" passHref>
                                                         <p className="nav-link font-normal text-xs text-gray-700 hover:text-green-700">Kategori</p>
                                                     </Link>
                                                     {
@@ -70,18 +70,18 @@ function Navbar() {
                                     )}
                                 </Menu>
                             </div>
-                            <Link href="/kursus">
+                            <Link href="/kursus" passHref>
                                 <p className="nav-link font-normal text-xs text-gray-700 hover:text-green-700">Kursus</p>
                             </Link>
-                            <Link href="/mentors">
+                            <Link href="/mentors" passHref>
                                 <p className="nav-link font-normal text-xs text-gray-700 hover:text-green-700">Mentors</p>
                             </Link>
                             <input className="py-2 w-[313px] px-4 border border-green-400 text-xs focus:border-green-700" type="search" name="search" id="search" placeholder='Mau belajar apa ?' />
                             <div className="flex gap-x-4">
-                                <Link href="/auth/masuk">
+                                <Link href="/auth/masuk" passHref>
                                     <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-green-400 hover:text-white border-green-400 font-normal text-xs text-gray-700 ">Masuk</p>
                                 </Link>
-                                <Link href="/auth/daftar">
+                                <Link href="/auth/daftar" passHref>
                                     <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-green-400 hover:text-white border-green-400 font-normal text-xs text-gray-700 ">Daftar</p>
                                 </Link>
                             </div>
@@ -152,7 +152,7 @@ function Navbar() {
                                         <React.Fragment>
                                             <span className="rounded-md shadow-sm">
                                                 <Menu.Button className="inline-flex items-center space-x-2 text-sm text-gray-700 justify-center transition duration-150 ease-in-out  focus:border-blue-300 focus:shadow-outline-blue">
-                                                    <Link href="/kategori">
+                                                    <Link href="/kategori" passHref>
                                                         <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Kategori</p>
                                                     </Link>
                                                     {
@@ -187,18 +187,18 @@ function Navbar() {
                                     )}
                                 </Menu>
                             </div>
-                            <Link href="/kursus">
+                            <Link href="/kursus" passHref>
                                 <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Kursus</p>
                             </Link>
-                            <Link href="/mentors">
+                            <Link href="/mentors" passHref>
                                 <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Mentors</p>
                             </Link>
                             <input className="py-2 px-4 border border-green-400 text-sm" type="search" name="search" id="search" placeholder='search somethings' />
                             <div className="flex gap-x-4 mt-3">
-                                <Link href="/masuk">
+                                <Link href="/masuk" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Masuk</p>
                                 </Link>
-                                <Link href="/daftar">
+                                <Link href="/daftar" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Daftar</p>
                                 </Link>
                             </div>

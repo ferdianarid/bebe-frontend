@@ -69,7 +69,7 @@ const Register: React.FC = () => {
                     <p className="text-xs font-medium text-gray-800 text-center mt-5">Kamu sudah punya akun ?</p>
 
                     {/* <!-- Button Login --> */}
-                    <Link href={'/authentication/masuk'}>
+                    <Link href={'/authentication/masuk'} passHref>
                         <button type="submit" className="py-3 mt-4 text-sm text-green-600 px-4 bg-white hover:bg-green-100 w-full">
                             <p className="text-sm font-bold">Masuk Akun</p>
                         </button>

@@ -2,6 +2,7 @@ import React from 'react'
 import instructor from "assets/learn.png"
 import instructor2 from "assets/learn.png"
 import { IMentors } from 'interfaces/IMentors'
+import Image from 'next/image'
 
 const MentorsCard = ({ id, name, roles, description }: IMentors) => {
     let instructorImages: any = ""
@@ -16,7 +17,7 @@ const MentorsCard = ({ id, name, roles, description }: IMentors) => {
                 <div className="w-40">
                     <div className="w-full h-full">
                         <div className="bg-green-500 w-40 h-40">
-                            <img src={instructorImages} alt={`instructor${id}`} className="object-cover" />
+                            <Image src={instructorImages} alt={`instructor${id}`} className="object-cover" />
                         </div>
                     </div>
                 </div>

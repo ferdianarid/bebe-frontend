@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaStar, FaStarHalf, FaImages } from "react-icons/fa"
 import { IClass } from 'interfaces/IClass'
+import Image from 'next/image'
 
 const ClassCard = ({ category, images, title, prices, rating, users_voted }: IClass) => {
     return (
@@ -8,7 +9,7 @@ const ClassCard = ({ category, images, title, prices, rating, users_voted }: ICl
             <div className="w-full p-3 border border-gray-300">
                 <div className="w-full h-36 bg-gray-200 mb-4 flex items-center justify-center text-gray-400">
                     {
-                        images ? <img src={images} className="object-cover h-full" alt="images" /> : <FaImages size={64} />
+                        images ? <Image src={images} className="object-cover h-full" alt="images" /> : <FaImages size={64} />
                     }
                 </div>
                 <p className='text-[10px] py-1 px-2 rounded-full bg-green-600 w-fit text-white'>{category}</p>
