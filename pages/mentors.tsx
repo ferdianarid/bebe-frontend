@@ -39,23 +39,25 @@ const Mentors = () => {
                         <p className="text-sm text-gray-500 mt-4 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rerum eos animi Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem delectus tempora eius tempore et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ab ipsam repudiandae tempore adipisci officiis.  <span className="text-blue-700 font-semibold ml-1">Selengkapnya...</span> </p>
                         {/* Kategori */}
                         <h1 className="font-bold mt-16 text-md text-gray-700">Kategori</h1>
-                        <div className="flex items-center mt-4 space-x-2">
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Teknologi</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Pengembangan Web</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Frontend Development</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Web Performance</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Firebase</div>
-                        </div>
-                        <div className="flex items-center mt-4 space-x-2">
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Backend Development</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Infrastruktur Server</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Data Engineering</div>
-                            <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Mock Interview</div>
+                        <div className="flex md:block space-x-5 md:space-x-0">
+                            <div className="flex flex-col md:flex-row md:items-center items-start mt-4 space-y-2 md:space-y-0 md:space-x-2">
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Teknologi</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Pengembangan Web</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Frontend Development</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Web Performance</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Firebase</div>
+                            </div>
+                            <div className="flex flex-col md:flex-row md:items-center items-start mt-4 space-y-2 md:space-y-0 md:space-x-2">
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Backend Development</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Infrastruktur Server</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Data Engineering</div>
+                                <div className="py-2 px-4 rounded-full bg-blue-100 text-xs font-medium text-blue-600 w-fit">Mock Interview</div>
+                            </div>
                         </div>
                         {/* Pengalaman */}
                         <h1 className="font-bold mt-12 text-md text-gray-700">Pengalaman Kerja</h1>
                         <div className="mt-4 relative">
-                            <div className="absolute border-l-4 border-blue-400 h-[813px] md:h-[535px] left-0 top-2"></div>
+                            <div className="absolute border-l-4 border-blue-400 h-[780px] md:h-[535px] left-0 top-2"></div>
                             <div className="h-3 w-3 bg-blue-400 rounded-full absolute -left-[4px] top-2"></div>
                             <div className="ml-6">
                                 <h1 className="font-bold text-lg">VP of Engineering, EC2 Service</h1>

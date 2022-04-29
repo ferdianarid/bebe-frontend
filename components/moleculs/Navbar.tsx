@@ -24,9 +24,9 @@ function Navbar() {
                 <div className="flex items-center">
                     <div className="flex-shrink-0">
                         <Link href="/" passHref>
-                            <p className="nav-link font-bold text-lg">Belajarbekerja.com</p>
+                            {/* <p className="nav-link font-bold text-lg">Belajarbekerja.com</p> */}
+                            <Image src="/logo.png" width={110} height={44} alt="belajarbekerja" />
                         </Link>
-                        {/* <img src={Logoimg} width="128px" alt="travelia-logo" /> */}
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-center space-x-10">
@@ -87,7 +87,7 @@ function Navbar() {
                                     <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-blue-400 hover:text-white border-blue-400 font-normal text-xs text-gray-700 ">Daftar</p>
                                 </Link> */}
                                 <Link href="/auth/daftar" passHref>
-                                    <div className="flex items-center space-x-2 ml-28">
+                                    <div className="flex items-center space-x-2 ml-44">
                                         <div className="h-8 w-8 rounded-full  flex items-center justify-center">
                                             <Image src="/photo.png" alt="photo" width={34} height={34} />
                                         </div>
