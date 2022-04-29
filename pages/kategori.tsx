@@ -25,7 +25,7 @@ const Category: React.FC = () => {
                                 <CategoryCard
                                     key={category.id}
                                     uniqKey={category.id}
-                                    image={images[category.id - 1]}
+                                    // image={images[category.id - 1]}
                                     title={category.title}
                                     subcategory={category.list.map(items => <p key={items.id} className="text-sm my-2 font-medium text-gray-600">{items.subcategory}</p>)}
                                 />
