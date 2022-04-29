@@ -17,7 +17,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="navbar w-full bg-white top-0 py-4">
+        <nav className="navbar z-40 w-full bg-white top-0 py-4">
             <div className="flex items-center justify-between">
                 <div className="flex items-center">
                     <div className="flex-shrink-0">

@@ -4,7 +4,7 @@ export const ClassLists = [{
         description: "Belajar React dari dasar hingga mahir",
         category: "Programming",
         prices: "250.800",
-        images: "https://kopi.dev/static/29c7e361449d99b9f6849599d02b24ea/company-using-react.png",
+        // images: "https://kopi.dev/static/29c7e361449d99b9f6849599d02b24ea/company-using-react.png",
         rating_star: 4.9,
         users_voted: 3252
     },
@@ -14,7 +14,7 @@ export const ClassLists = [{
         description: "Belajar mengcustom tema halaman di wordpress",
         category: "Wordpress",
         prices: "350.500",
-        images: "https://microlancer.lancerassets.com/v2/services/55/887ec0436711e69fce61006d53e4fc/large__original_customize_1.jpg",
+        // images: "https://microlancer.lancerassets.com/v2/services/55/887ec0436711e69fce61006d53e4fc/large__original_customize_1.jpg",
         rating_star: 4.5,
         users_voted: 1254
     },
@@ -24,7 +24,7 @@ export const ClassLists = [{
         description: "Belajar mengenai dunia ux research menggunakan tools figma",
         category: "Research",
         prices: "480.800",
-        images: "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
+        // images: "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
         rating_star: 4.4,
         users_voted: 1243
     },
@@ -34,7 +34,7 @@ export const ClassLists = [{
         description: "Membuat visual object dengan menggunakan javascript",
         category: "Programming",
         prices: "280.000",
-        images: "https://uploads.toptal.io/blog/image/125783/toptal-blog-image-1522333595770-14ba14a2f6099482fa9189f8764dd5ad.png",
+        // images: "https://uploads.toptal.io/blog/image/125783/toptal-blog-image-1522333595770-14ba14a2f6099482fa9189f8764dd5ad.png",
         rating_star: 4.7,
         users_voted: 3885
     },
@@ -44,7 +44,7 @@ export const ClassLists = [{
         description: "Pengenalan dunia digital marketing dan cara implementasi",
         category: "Business",
         prices: "520.000",
-        images: "https://5.imimg.com/data5/RO/UI/TP/SELLER-30415248/facebook-digital-marketing-service-500x500.jpg",
+        // images: "https://5.imimg.com/data5/RO/UI/TP/SELLER-30415248/facebook-digital-marketing-service-500x500.jpg",
         rating_star: 4.8,
         users_voted: 2384
     },
@@ -54,7 +54,7 @@ export const ClassLists = [{
         description: "Memulai menggunakan fitur baru figma component sehari hari",
         category: "Design",
         prices: "300.800",
-        images: "https://s.kaskus.id/images/2021/01/26/10020696_20210126092928.jpg",
+        // images: "https://s.kaskus.id/images/2021/01/26/10020696_20210126092928.jpg",
         rating_star: 4.6,
         users_voted: 1957
     },
@@ -64,7 +64,7 @@ export const ClassLists = [{
         description: "Mengasah kemampuan programming dengan implementasi design pattern",
         category: "Programming",
         prices: "870.800",
-        images: "https://www.xenonstack.com/hubfs/xenonstack-design-pattern-in-javascript.png",
+        // images: "https://www.xenonstack.com/hubfs/xenonstack-design-pattern-in-javascript.png",
         rating_star: 4.2,
         users_voted: 4134
     },
@@ -74,7 +74,7 @@ export const ClassLists = [{
         description: "Memulai belajar dan mendalami dunia user interface design",
         category: "Design",
         prices: "320.500",
-        images: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/1501/posts/35706/image/figma-ui-kits-dashboard-invoice.jpg",
+        // images: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/1501/posts/35706/image/figma-ui-kits-dashboard-invoice.jpg",
         rating_star: 4.7,
         users_voted: 1557
     }
