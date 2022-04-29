@@ -165,7 +165,7 @@ export const ClassCategory = [{
 
 export const questionList = [{
         id: 1,
-        question: "Bagaimana Cara mencari kelas di Belajar Bersama ?",
+        question: "Bagaimana Cara mencari kelas di Belajar Bekerja ?",
         answers: "Kamu tinggal pilih di menu kategori nanti kamu akan diarahkan ke kursus yang relate dengan yang kamu inginkan atau bisa langsung mengetikkan kursus yang kamu inginkan di kolom pencarian"
     },
     {

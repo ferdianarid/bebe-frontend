@@ -84,7 +84,7 @@ const Home = () => {
                 <SectionLayouts addingclass="my-20">
                     <div className="w-full md:w-1/2 mx-auto">
                         <h1 className="w-fit text-white mx-auto font-medium py-2 px-4 rounded-full bg-green-600 text-sm md:text-md">Our Services</h1>
-                        <h1 className="w-[80%] leading-normal mx-auto font-bold text-center mt-4 mb-2 text-2xl text-gray-700">Keuntungan Mengikuti Kursus di Kelas Bersama</h1>
+                        <h1 className="w-[80%] leading-normal mx-auto font-bold text-center mt-4 mb-2 text-2xl text-gray-700">Keuntungan Mengikuti Kursus di Belajar Bekerja</h1>
                     </div>
                     <div className="mx-8 md:mx-[120px]">
                         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-y-6 gap-x-0 md:gap-y-0 md:gap-x-8 mt-6 md:mt-10">
@@ -117,13 +117,13 @@ const Home = () => {
                     </div>
                 </SectionLayouts>
 
-                {/* Section Join Kelas Bersama as Instructor */}
+                {/* Section Join Belajar Bekerja as Instructor */}
                 <SectionLayouts addingclass='max-w-[1440px] mx-auto my-20 px-4 md:px-24'>
                     <div className="testimonial w-full relative">
                         <Image src={coverImage} alt="cover" />
                         <div className="absolute z-20 top-3 md:top-7 left-10 md:left-[80px] flex flex-col items-center space-y-0 md:space-y-5">
                             <h1 className="text-sm md:text-4xl text-white font-bold w-[70%] mb-2 md:mb-0 text-center">Ingin membuat kursus
-                                di Kelas Bersama ?</h1>
+                                di Belajar Bekerja ?</h1>
                             <p className='text-white text-sm font-normal hidden md:block m-auto w-[60%] text-center'>Kamu akan mendapatkan kesempatan untuk menjadi mentor dibidangmu sekarang. Yuk buruan daftar disini !</p>
                             <button className="py-2 text-sm text-green-600 font-bold px-4 bg-white hover:bg-green-100">Request Mentor</button>
                         </div>
