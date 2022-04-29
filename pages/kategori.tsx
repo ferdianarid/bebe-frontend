@@ -8,7 +8,7 @@ import { ListCategory } from 'apis'
 const marketing = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
 const game = "https://images.unsplash.com/photo-1626379953822-baec19c3accd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpcnR1YWwlMjByZWFsaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
 
-const images = [tech, design, marketing, game]
+const images = [tech, design, tech, design]
 
 const Category: React.FC = () => {
     return (
@@ -25,7 +25,7 @@ const Category: React.FC = () => {
                                 <CategoryCard
                                     key={category.id}
                                     uniqKey={category.id}
-                                    // image={images[category.id - 1]}
+                                    image={images[category.id - 1]}
                                     title={category.title}
                                     subcategory={category.list.map(items => <p key={items.id} className="text-sm my-2 font-medium text-gray-600">{items.subcategory}</p>)}
                                 />

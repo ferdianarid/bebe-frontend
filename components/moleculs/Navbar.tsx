@@ -195,10 +195,10 @@ function Navbar() {
                             </Link>
                             <input className="py-2 px-4 border border-green-400 text-sm" type="search" name="search" id="search" placeholder='search somethings' />
                             <div className="flex gap-x-4 mt-3">
-                                <Link href="/masuk" passHref>
+                                <Link href="/auth/masuk" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Masuk</p>
                                 </Link>
-                                <Link href="/daftar" passHref>
+                                <Link href="/auth/daftar" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Daftar</p>
                                 </Link>
                             </div>
