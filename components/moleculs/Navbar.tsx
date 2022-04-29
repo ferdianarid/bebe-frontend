@@ -11,6 +11,8 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa"
 
 import Link from "next/link";
 
+import Image from "next/image";
+
 // Navbar Components
 function Navbar() {
     // State isOpen
@@ -27,7 +29,7 @@ function Navbar() {
                         {/* <img src={Logoimg} width="128px" alt="travelia-logo" /> */}
                     </div>
                     <div className="hidden md:block">
-                        <div className="ml-10 flex items-center space-x-4">
+                        <div className="ml-10 flex items-center space-x-10">
                             {/* <a className="text-sm text-gray-700">Kategori</a> */}
                             <div className="relative inline-block text-left">
                                 <Menu>
@@ -76,13 +78,21 @@ function Navbar() {
                             <Link href="/mentors" passHref>
                                 <p className="nav-link font-normal text-xs text-gray-700 hover:text-green-700">Mentors</p>
                             </Link>
-                            <input className="py-2 w-[313px] px-4 border border-green-400 text-xs focus:border-green-700" type="search" name="search" id="search" placeholder='Mau belajar apa ?' />
+                            <input className="py-2 w-[313px] px-4 rounded-md border border-blue-400 text-xs focus:border-blue-700" type="search" name="search" id="search" placeholder='Mau belajar apa ?' />
                             <div className="flex gap-x-4">
-                                <Link href="/auth/masuk" passHref>
-                                    <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-green-400 hover:text-white border-green-400 font-normal text-xs text-gray-700 ">Masuk</p>
+                                {/* <Link href="/auth/masuk" passHref>
+                                    <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-blue-400 hover:text-white border-blue-400 font-normal text-xs text-gray-700 ">Masuk</p>
                                 </Link>
                                 <Link href="/auth/daftar" passHref>
-                                    <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-green-400 hover:text-white border-green-400 font-normal text-xs text-gray-700 ">Daftar</p>
+                                    <p className="nav-link py-2 px-4 border  hover:cursor-pointer hover:bg-blue-400 hover:text-white border-blue-400 font-normal text-xs text-gray-700 ">Daftar</p>
+                                </Link> */}
+                                <Link href="/auth/daftar" passHref>
+                                    <div className="flex items-center space-x-2 ml-28">
+                                        <div className="h-8 w-8 rounded-full  flex items-center justify-center">
+                                            <Image src="/photo.png" alt="photo" width={34} height={34} />
+                                        </div>
+                                        <p className="font-bold text-sm">Hi, Ferdian</p><FaChevronDown />
+                                    </div>
                                 </Link>
                             </div>
                         </div>
@@ -195,11 +205,19 @@ function Navbar() {
                             </Link>
                             <input className="py-2 px-4 border border-green-400 text-sm" type="search" name="search" id="search" placeholder='search somethings' />
                             <div className="flex gap-x-4 mt-3">
-                                <Link href="/auth/masuk" passHref>
+                                {/* <Link href="/auth/masuk" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Masuk</p>
                                 </Link>
                                 <Link href="/auth/daftar" passHref>
                                     <p className="nav-link font-semibold text-gray-700 hover:text-green-700">Daftar</p>
+                                </Link> */}
+                                <Link href="/auth/daftar" passHref>
+                                    <div className="flex items-center space-x-2 ml-0 md:ml-28">
+                                        <div className="h-8 w-8 rounded-full  flex items-center justify-center">
+                                            <Image src="/photo.png" alt="photo" width={34} height={34} />
+                                        </div>
+                                        <p className="font-bold text-sm">Hi, Ferdian</p><FaChevronDown />
+                                    </div>
                                 </Link>
                             </div>
                         </div>
