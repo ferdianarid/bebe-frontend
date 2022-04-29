@@ -69,7 +69,6 @@ const Home = () => {
                             ClassLists.map((classItems) => (
                                 <ClassCard
                                     key={classItems.id}
-                                    images={classItems.images}
                                     category={classItems.category}
                                     title={classItems.title}
                                     prices={classItems.prices}
